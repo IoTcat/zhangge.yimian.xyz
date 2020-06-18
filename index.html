@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <title>张戈の小可爱</title>
+    <meta name="description" content="Zhangg's Baby">
+    <meta name="keywords" content="zhangg">
+    <link rel="icon" href="https://cdn.yimian.xyz/img/head/head3r.ico">
+    <link rel="shortcut icon" href="https://cdn.yimian.xyz/img/head/head3r.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.yimian.xyz/iotcat-homepage/main.css"></head>
+    <link rel="stylesheet" type="text/css" href="https://cdn.yimian.xyz/shaky/shaky.css">
+    <script src="https://cdn.yimian.xyz/ushio-js/ushio-head.min.js"></script>
+    <style type="text/css">
+      #ap-f{
+        position: absolute;
+        z-index: 9999;
+      }
+    </style>
+  <body class="panel-cover" id="bg" style="background-image:url(https://api.yimian.xyz/img/?path=wallpaper/img_2019-12-23_1920x1080_96_background_normal.jpg)">
+    <script type="text/javascript">function change_bg() {
+        document.getElementById("bg").style = "background-image: url('https://api.yimian.xyz/img/?size=1920x1080')"
+      }</script>
+    <div class="panel-main">
+      <div class="panel-main__inner panel-inverted">
+        <div class="panel-main__content">
+          <a href="#" onclick="change_bg()" title="">
+            <img id="head" src="https://cdn.yimian.xyz/img/head/head.png" alt="IoTcat's logo" class="panel-cover__logo logo"></a>
+          <h1 class="panel-cover__title panel-title">
+            <span id="title" title="Homepage" >张戈の小可爱</span></h1>
+          <span class="panel-cover__subtitle panel-subtitle">
+            <div id="hitokoto">『少女祈祷中…』</div></span>
+          <hr class="panel-cover__divider">
+          <p id="instr1" class="panel-cover__description">第一行说明</p>
+          <p id="instr2" class="panel-cover__description" style="color:#CCC;font-size:.8em">第二行说明</p>
+          <div class="navigation-wrapper">
+            <div>
+              <nav class="cover-navigation cover-navigation--primary">
+                <ul class="navigation">
+                  <li class="navigation__item" id="url1l">
+                      <a id="url1" href="#" title="访问博客" onClick="to('page1')">惊喜</a></li>
+                  <li class="navigation__item" id="url2l">
+                    <a id="url2" href="#" title="About" onClick="to('page2')">更多惊喜</a></li>
+				  <li class="navigation__item" id="url3l">
+                    <a id="url3" href="#" title="About" onClick="to('page3')">链接三</a></li>
+				  <li class="navigation__item" id="url4l">
+                    <a id="url4" href="#" title="About" onClick="to('return')" hidden>返回</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div><!--
+              <nav class="cover-navigation navigation--social">
+                <ul class="navigation">
+                  <li class="navigation__item">
+                    <a href="https://wpa.qq.com/msgrd?v=3&uin=569641921&site=qq&menu=yes" title="QQ" target="_blank">
+                      <i class="social fa fa-qq"></i>
+                    </a>
+                  </li>
+                  <li class="navigation__item">
+                    <a href="https://t.me/iotcat" title="Telegeam" target="_blank">
+                      <i class="social fa fa-telegram"></i>
+                    </a>
+                  </li>
+                  <li class="navigation__item">
+                    <a href="https://github.com/iotcat" title="Github" target="_blank">
+                      <i class="social fa fa-github"></i>
+                    </a>
+                  </li>
+                  <li class="navigation__item">
+                    <a href="https://www.eee.dog/feed/" rel="author" title="RSS" target="_blank">
+                      <i class="social fa fa-rss"></i>
+                    </a>
+                  </li>
+                  <li class="navigation__item">
+                    <a href="mailto:i@iotcat.me" title="Email">
+                      <i class="social fa fa-envelope"></i>
+                    </a>
+                  </li>
+                </ul>
+              </nav>-->
+            </div>
+          </div>
+          <footer class="footer">
+            <p>&copy; 2018-
+              <script>document.write((new Date).getFullYear());</script> iotcat |
+              <a style="TEXT-DECORATION:none" href="http://www.beian.miit.gov.cn/" rel="nofollow" target="_blank">
+                <font color="#b3b3b3">鲁ICP备18022823号-1</font></a> | Powered By <a id="ushio-homepage" href="https://ushio.xyz"><span class="shaky">Ushio</span></a></p>
+          </footer>
+        </div>
+      </div>
+      <div class="panel-cover--overlay cover-slate"></div>
+    </div>
+    <script type="text/javascript" src="https://cdn.yimian.xyz/iotcat-homepage/main.js"></script>
+    <script src="https://cdn.yimian.xyz/ushio-js/ushio-footer.min.js"></script>
+    <script type="text/javascript">
+
+    /*****
+
+1. 苹果周围插入链接 至少扣5个 
+2.更多惊喜 导入游戏（游戏开始15秒弹出<点击进入>按钮，进入 照片轮番放映，插音乐）
+3. 拘板46 制服的太阳
+    ****/
+
+/****************在这里输入*************************/
+
+    var 主页标题 = '欢迎来到我的世界';
+    var 主页副标题 = '幸运是对的时间遇到你';
+    var 主页显示的字第一行 = '2020.5.3';
+    var 主页显示的字第二行 = '这一刻，这里全都是你';
+    var 主页背景 = 'https://api.yimian.xyz/img/?size=1920x1080'; //这里填主页背景图片的链接
+    var 主页头像 = 'https://cdn.yimian.xyz/img/head/head.png'; //这里填主页头像图片链接
+
+    var 选项一标题 = '惊喜';
+    var 选项一副标题 = '这里填选项一副标题';
+    var 选项一显示的字第一行 = '把这里改成选项一第二行显示的字';
+    var 选项一显示的字第二行 = '把这里改成选项一第二行显示的字';
+    var 选项一背景 = 'https://api.yimian.xyz/img/?path=imgbed/img_4e9a6ffa_650x651_8_null_normal.jpeg'; //这里填选项一背景图片的链接
+    var 选项一头像 = 'https://cdn.yimian.xyz/img/head/head3.png'; //这里填选项一头像图片链接
+
+
+    var 选项二标题 = '这里填选项二标题';
+    var 选项二副标题 = '这里填选项二副标题';
+    var 选项二显示的字第二行 = '把这里改成选项二第二行显示的字';
+    var 选项二显示的字第二行 = '把这里改成选项二第二行显示的字';
+    var 选项二背景 = 'https://api.yimian.xyz/img/?size=1920x1080'; //这里填选项二背景图片的链接
+    var 选项二头像 = 'https://cdn.yimian.xyz/img/head/head4.png';
+
+    var 选项三标题 = '这里填选项三标题';
+    var 选项三副标题 = '这里填选项三副标题';
+    var 选项三显示的字第三行 = '把这里改成选项三第二行显示的字';
+    var 选项三显示的字第二行 = '把这里改成选项三第二行显示的字';
+    var 选项三背景 = 'https://api.yimian.xyz/img/?size=1920x1080'; //这里填选项三背景图片的链接
+    var 选项三头像 = 'https://cdn.yimian.xyz/img/?size=1920x1080';
+
+
+    var 苹果1 = '你好幸运，遇见了我';
+    var 苹果2 = '今天也要元气满满哦~';
+    var 苹果3 = '没有什么是不能实现的';
+    var 苹果4 = '你是我的小呀小苹果';
+    var 苹果5 = '今天的月亮圆又圆';
+    var 苹果6 = '啊，我肚子好疼';
+    var 苹果7 = '讨厌(ノω<。)ノ))☆.。';
+
+
+/********************CODE**********************/
+      /*$.get("https://api.yimian.xyz/words/", function(res){
+        $('#hitokoto').html(res);
+      });*/
+
+
+      setTimeout(()=>{tips.success({
+      	icon: "",
+      	title: "播放音乐",
+      	message: "点击右下角播放音乐",
+      	position: "center",
+      	timeout: 5000
+      });}, 4000);
+
+    var hide = () => {
+
+        $('#url1l').hide();
+        $('#url2l').hide();
+        $('#url3l').hide();
+        $('#url4l').show();
+
+
+
+        $('#title').hide();
+        $('#hitokoto').hide();
+        $('#instr1').hide();
+        $('#instr2').hide();
+        $("#head").hide();
+
+        $('#url4l').css('position', 'absolute');
+        $('#url4l').css('top', + ($(window).height()/5) +'px');
+        $('#url4l').css('left', '-23px');
+        $('#url4l').css('color', '#FFF');
+
+
+        $(".panel-cover--overlay").hide();
+
+        $('body').css('background-repeat', 'no-repeat');
+        $('body').css('background-size', '150%');
+    };
+
+    var show = () => {
+
+        $('#url1l').show();
+        $('#url2l').show();
+        $('#url3l').hide();
+        $('#url4l').hide();
+
+        $('#title').html(主页标题);
+        $('#hitokoto').html(主页副标题);
+        $('#instr1').html(主页显示的字第一行);
+        $('#instr2').html(主页显示的字第二行);
+        document.getElementById("bg").style = "background-image: url('"+主页背景+"')"
+        $("#head").attr("src", 主页头像);
+
+
+
+        $('#title').show();
+        $('#hitokoto').show();
+        $('#instr1').show();
+        $('#instr2').show();
+        $("#head").show();
+
+         $('#url4l').css('position', 'relative');
+
+         $('body').css('background-repeat', 'repeat-x');
+         $('body').css('background-size', 'none');
+
+        $(".panel-cover--overlay").show();
+
+        $(".panel-main").off();
+    };
+
+    var to = (p) => {
+        if(p == 'page1'){
+
+            $('#title').html(选项一标题);
+            $('#hitokoto').html(选项一副标题);
+            $('#instr1').html(选项一显示的字第一行);
+            $('#instr2').html(选项一显示的字第二行);
+            document.getElementById("bg").style = "background-image: url('"+选项一背景+"')"
+            $("#head").attr("src", 选项一头像);
+            hide();
+
+
+            $(".panel-main").click(function(e){
+        		var y=e.offsetY;
+        		var x=e.offsetX;
+        		console.log(x, y);
+        		if(x>70 && x<130 && y>170 && y<250){
+        			tips.show({
+        				title: "Apple 1",
+        				message: 苹果1
+        			});
+        		}else if(x>170&&x<230&&y>190&&y<270){
+        			tips.show({
+        				title: "Apple 2",
+        				message: 苹果2
+        			});
+        		}else if(x>220&&x<280&&y>150&&y<230){
+        			tips.show({
+        				title: "Apple 3",
+        				message: 苹果3
+        			});
+        		}else if(x>30&&x<90&&y>240&&y<320){
+        			tips.show({
+        				title: "Apple 4",
+        				message: 苹果4
+        			});
+        		}else if(x>180&&x<240&&y>240&&y<310){
+        			tips.show({
+        				title: "Apple 5",
+        				message: 苹果5
+        			});
+        		}else if(x>40&&x<120&&y>0&&y<60){
+        			tips.show({
+        				title: "Apple 6",
+        				message: 苹果6
+        			});
+        		}else if(x>240&&x<330&&y>0&&y<50){
+        			tips.show({
+        				title: "Apple 7",
+        				message: 苹果7
+        			});
+        		}else{
+        			tips.error({
+        				title: "提示",
+        				message: "请点击苹果哦~"
+        			});
+        		}
+        	});
+    
+        }
+        if(p == 'page2'){
+            
+            $('#title').html(选项二标题);
+            $('#hitokoto').html(选项二副标题);
+            $('#instr1').html(选项二显示的字第二行);
+            $('#instr2').html(选项二显示的字第二行);
+            document.getElementById("bg").style = "background-image: url('"+选项二背景+"')"
+            $("#head").attr("src", 选项二头像);
+            hide();
+            window.location.href='./mikutap.html';
+
+ 
+        }
+        if(p == 'page3'){
+            hide();
+            $('#title').html(选项三标题);
+            $('#hitokoto').html(选项三副标题);
+            $('#instr1').html(选项三显示的字第三行);
+            $('#instr2').html(选项三显示的字第二行);
+            document.getElementById("bg").style = "background-image: url('"+选项三背景+"')"
+            $("#head").attr("src", 选项三头像);
+ 
+        }
+        if(p == 'return'){
+            show();
+        }
+    }
+
+    show();  //init
+    </script>
+  </body>
+
+</html>

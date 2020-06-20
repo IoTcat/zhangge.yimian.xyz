@@ -18,11 +18,13 @@
             border:0;
         }
     </style>
-    <script type="text/javascript">
-    	setTimeout(()=>{window.location.href='./index.html'}, 5000);
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
 </head>
 <body>
-    <div id="div1"><img src="https://api.yimian.xyz/img/?path=imgbed/img_932dd6f_824x1036_8_null_normal.jpeg" /></div>
+    <div id="div1"><img id="imgg" src="https://api.yimian.xyz/img/?path=imgbed/img_0b5d0a7_620x774_8_null_normal.jpeg" /></div>
+        <script type="text/javascript">
+    	$('#imgg').on('load', ()=>{alert('s');setTimeout(()=>{window.location.href='./index.html'}, 5000);});
+    </script>
+
 </body>
 </html>
